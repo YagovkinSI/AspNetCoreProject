@@ -1,0 +1,7 @@
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.PL\bin\Debug\netcoreapp3.1\AspNetCoreProject.PL.deps.json
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.PL\bin\Debug\netcoreapp3.1\AspNetCoreProject.PL.dll
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.PL\bin\Debug\netcoreapp3.1\AspNetCoreProject.PL.pdb
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.PL\obj\Debug\netcoreapp3.1\AspNetCoreProject.PL.AssemblyInfoInputs.cache
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.PL\obj\Debug\netcoreapp3.1\AspNetCoreProject.PL.AssemblyInfo.cs
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.PL\obj\Debug\netcoreapp3.1\AspNetCoreProject.PL.dll
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.PL\obj\Debug\netcoreapp3.1\AspNetCoreProject.PL.pdb

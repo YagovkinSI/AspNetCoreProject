@@ -1,0 +1,8 @@
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.BLL\bin\Debug\netcoreapp3.1\AspNetCoreProject.BLL.deps.json
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.BLL\bin\Debug\netcoreapp3.1\AspNetCoreProject.BLL.dll
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.BLL\bin\Debug\netcoreapp3.1\AspNetCoreProject.BLL.pdb
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.BLL\obj\Debug\netcoreapp3.1\AspNetCoreProject.BLL.csprojAssemblyReference.cache
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.BLL\obj\Debug\netcoreapp3.1\AspNetCoreProject.BLL.AssemblyInfoInputs.cache
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.BLL\obj\Debug\netcoreapp3.1\AspNetCoreProject.BLL.AssemblyInfo.cs
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.BLL\obj\Debug\netcoreapp3.1\AspNetCoreProject.BLL.dll
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.BLL\obj\Debug\netcoreapp3.1\AspNetCoreProject.BLL.pdb

@@ -1,0 +1,8 @@
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.DAL\bin\Debug\netcoreapp3.1\AspNetCoreProject.DAL.deps.json
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.DAL\bin\Debug\netcoreapp3.1\AspNetCoreProject.DAL.dll
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.DAL\bin\Debug\netcoreapp3.1\AspNetCoreProject.DAL.pdb
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.DAL\obj\Debug\netcoreapp3.1\AspNetCoreProject.DAL.csprojAssemblyReference.cache
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.DAL\obj\Debug\netcoreapp3.1\AspNetCoreProject.DAL.AssemblyInfoInputs.cache
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.DAL\obj\Debug\netcoreapp3.1\AspNetCoreProject.DAL.AssemblyInfo.cs
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.DAL\obj\Debug\netcoreapp3.1\AspNetCoreProject.DAL.dll
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.DAL\obj\Debug\netcoreapp3.1\AspNetCoreProject.DAL.pdb
