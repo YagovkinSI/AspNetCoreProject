@@ -6,3 +6,6 @@ D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.BLL\obj\Debug\n
 D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.BLL\obj\Debug\netcoreapp3.1\AspNetCoreProject.BLL.AssemblyInfo.cs
 D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.BLL\obj\Debug\netcoreapp3.1\AspNetCoreProject.BLL.dll
 D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.BLL\obj\Debug\netcoreapp3.1\AspNetCoreProject.BLL.pdb
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.BLL\bin\Debug\netcoreapp3.1\AspNetCoreProject.DAL.dll
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.BLL\bin\Debug\netcoreapp3.1\AspNetCoreProject.DAL.pdb
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.BLL\obj\Debug\netcoreapp3.1\AspNetCoreProject.BLL.csproj.CopyComplete
