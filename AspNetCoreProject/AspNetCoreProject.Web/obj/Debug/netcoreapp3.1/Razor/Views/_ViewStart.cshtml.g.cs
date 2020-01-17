@@ -21,13 +21,13 @@ using AspNetCoreProject.Web;
 #nullable disable
 #nullable restore
 #line 2 "D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.Web\Views\_ViewImports.cshtml"
-using AspNetCoreProject.Web.Models;
+using AspNetCoreProject.PL.ViewModels;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"261c9635c45c37f6740f54dee9ce7b65e0094997", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d5dcb680a0b68eacacd44c797b0b6ec4507f41f7", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
