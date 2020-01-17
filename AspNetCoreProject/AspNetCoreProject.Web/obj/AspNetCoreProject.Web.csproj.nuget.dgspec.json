@@ -159,7 +159,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\YSIApps\\AspNetCoreProject\\AspNetCoreProject\\AspNetCoreProject.BLL\\AspNetCoreProject.BLL.csproj": {
+                "projectPath": "D:\\YSIApps\\AspNetCoreProject\\AspNetCoreProject\\AspNetCoreProject.BLL\\AspNetCoreProject.BLL.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

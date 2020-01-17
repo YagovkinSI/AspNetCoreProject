@@ -19,7 +19,10 @@ namespace AspNetCoreProject.BLL.Repositories
 
         public async Task<List<Province>> GetAllProvincesAsync()
         {
-            return await dbContext.Provinces.ToListAsync();
+            return await dbContext.Provinces
+                .Include(p => p.Users_Provinces)
+                .Include("Users_Provinces.User")
+                .ToListAsync();
         }
 
         public async Task<Province> GetProvinceByUserIdAsync(string userId)

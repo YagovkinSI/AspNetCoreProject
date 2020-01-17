@@ -13,6 +13,7 @@ using Microsoft.Extensions.Hosting;
 using AspNetCoreProject.DAL;
 using AspNetCoreProject.DAL.Models;
 using AspNetCoreProject.BLL;
+using AspNetCoreProject.PL;
 
 namespace AspNetCoreProject.Web
 {
@@ -35,6 +36,7 @@ namespace AspNetCoreProject.Web
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.AddScoped<DataService>();
+            services.AddScoped<PresentationService>();
 
             services.AddControllersWithViews();
             services.AddRazorPages();

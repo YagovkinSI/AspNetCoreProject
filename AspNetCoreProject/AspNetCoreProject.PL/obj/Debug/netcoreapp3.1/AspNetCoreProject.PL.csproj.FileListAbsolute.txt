@@ -6,3 +6,8 @@ D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.PL\obj\Debug\ne
 D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.PL\obj\Debug\netcoreapp3.1\AspNetCoreProject.PL.dll
 D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.PL\obj\Debug\netcoreapp3.1\AspNetCoreProject.PL.pdb
 D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.PL\obj\Debug\netcoreapp3.1\AspNetCoreProject.PL.csprojAssemblyReference.cache
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.PL\bin\Debug\netcoreapp3.1\AspNetCoreProject.BLL.dll
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.PL\bin\Debug\netcoreapp3.1\AspNetCoreProject.DAL.dll
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.PL\bin\Debug\netcoreapp3.1\AspNetCoreProject.BLL.pdb
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.PL\bin\Debug\netcoreapp3.1\AspNetCoreProject.DAL.pdb
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.PL\obj\Debug\netcoreapp3.1\AspNetCoreProject.PL.csproj.CopyComplete
