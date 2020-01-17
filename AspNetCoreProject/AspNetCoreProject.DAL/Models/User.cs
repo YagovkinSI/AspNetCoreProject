@@ -7,5 +7,6 @@ namespace AspNetCoreProject.DAL.Models
 {
     public class User : IdentityUser
     {
+        public virtual User_Province Users_Provinces { get; set; }
     }
 }
