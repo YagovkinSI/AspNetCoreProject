@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using AspNetCoreProject.DAL;
 using AspNetCoreProject.DAL.Models;
+using AspNetCoreProject.BLL;
 
 namespace AspNetCoreProject.Web
 {
@@ -32,6 +33,9 @@ namespace AspNetCoreProject.Web
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<User>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddScoped<DataService>();
+
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
