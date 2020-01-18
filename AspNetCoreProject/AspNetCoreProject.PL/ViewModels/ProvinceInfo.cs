@@ -12,7 +12,10 @@ namespace AspNetCoreProject.PL.ViewModels
         public int ProvinceID { get; set; }
 
         [DisplayName("Название провинции")]
-        public string Name { get; set; }       
+        public string Name { get; set; }
+
+        [DisplayName("Описание провинции")]
+        public string Description { get; set; }
 
         [DisplayName("Игрок")]
         public string User { get; set; }

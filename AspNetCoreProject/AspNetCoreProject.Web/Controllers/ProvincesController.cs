@@ -21,16 +21,16 @@ namespace AspNetCoreProject.Web.Controllers
         }
 
         // GET: Provinces
-        public IActionResult Index()
+        public async Task<IActionResult> IndexAsync()
         {
             var userId = HttpContext.User.FindFirst(ClaimTypes.NameIdentifier);
             ViewBag.HaveNotProvince = userId == null
                 ? false
                 : dataService.ProvincesRepository.GetProvinceByUserIdAsync(userId.Value).Result == null;
-            return View(presentationService.GetProvinceInfoList().Result);
+            return View(await presentationService.GetProvinceInfoList());
         }
 
-        // GET: Provinces/Take/5
+        // GET: Provinces/Select/5
         public IActionResult Select(int? id)
         {
             if (!id.HasValue)
@@ -45,6 +45,15 @@ namespace AspNetCoreProject.Web.Controllers
             return success.Result.Success
                 ? (IActionResult)RedirectToAction("Index")
                 : NotFound();
+        }
+
+        // GET: Provinces/Details/5
+        public async Task<IActionResult> DetailsAsync(int? id)
+        {
+            if (!id.HasValue)
+                return NotFound();
+
+            return View(await presentationService.GetProvinceInfo(id.Value));
         }
     }
 }

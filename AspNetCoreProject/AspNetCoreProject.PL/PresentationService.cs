@@ -30,10 +30,14 @@ namespace AspNetCoreProject.PL
 
         private ProvinceInfo GetProvinceInfo(Province province)
         {
+            if (province == null)
+                return null;
+
             var provinceInfo = new ProvinceInfo
             {
                 ProvinceID = province.Id,
                 Name = province.Name,
+                Description = province.Description
             };          
 
             var availableForPlay = province.Users_Provinces == null;
@@ -43,6 +47,18 @@ namespace AspNetCoreProject.PL
                 : province.Users_Provinces.User.UserName;
 
             return provinceInfo;
+        }
+
+        public async Task<ProvinceInfo> GetProvinceInfo(int provinceId)
+        {
+            return await Task.Run(() =>
+            {
+                return GetProvinceInfo(
+                    dataService.ProvincesRepository
+                        .GetProvinceByIdAsync(provinceId)
+                        .Result);
+            });
+
         }
     }
 }

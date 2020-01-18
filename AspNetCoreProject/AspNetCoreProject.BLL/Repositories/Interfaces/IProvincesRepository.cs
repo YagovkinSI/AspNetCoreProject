@@ -9,6 +9,7 @@ namespace AspNetCoreProject.BLL.Repositories.Interfaces
     public interface IProvincesRepository
     {
         Task<List<Province>> GetAllProvincesAsync();
+        Task<Province> GetProvinceByIdAsync(int provinceId);
         Task<Province> GetProvinceByUserIdAsync(string userId);
         Task<Response> LinkProvinceAndUserAsync(string userId, int provinceId);
     }

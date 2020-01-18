@@ -200,3 +200,4 @@ D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.Web\obj\Debug\n
 D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
 D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
 D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
+D:\YSIApps\AspNetCoreProject\AspNetCoreProject\AspNetCoreProject.Web\obj\Debug\netcoreapp3.1\Razor\Views\Provinces\Details.cshtml.g.cs

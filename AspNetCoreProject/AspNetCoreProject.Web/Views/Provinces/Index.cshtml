@@ -28,6 +28,7 @@
                 @Html.DisplayFor(modelItem => item.User)
             </td>
             <td>
+                <a asp-action="Details" asp-route-id="@item.ProvinceID">Подробнее</a>
                 @if (((bool)ViewBag.HaveNotProvince) && item.AvailableForPlay)
                 {
                     <a asp-action="Select" asp-route-id="@item.ProvinceID">Выбрать</a>
