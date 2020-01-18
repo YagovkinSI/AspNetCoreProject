@@ -10,7 +10,7 @@ namespace AspNetCoreProject.DAL.Models
         [Required]
         public string UserID { get; set; }
         public virtual User User { get; set; }
-        public Guid ProvinceID { get; set; }
+        public int ProvinceID { get; set; }
         public virtual Province Province { get; set; }
     }
 }

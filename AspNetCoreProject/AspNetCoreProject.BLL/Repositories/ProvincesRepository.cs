@@ -32,7 +32,7 @@ namespace AspNetCoreProject.BLL.Repositories
             return user_province?.Province;
         }
 
-        public async Task<Response> LinkProvinceAndUserAsync(string userId, Guid provinceId)
+        public async Task<Response> LinkProvinceAndUserAsync(string userId, int provinceId)
         {
             await foreach(var currLink in dbContext.Users_Provinces.AsAsyncEnumerable())
             {               

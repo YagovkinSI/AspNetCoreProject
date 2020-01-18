@@ -10,6 +10,6 @@ namespace AspNetCoreProject.BLL.Repositories.Interfaces
     {
         Task<List<Province>> GetAllProvincesAsync();
         Task<Province> GetProvinceByUserIdAsync(string userId);
-        Task<Response> LinkProvinceAndUserAsync(string userId, Guid provinceId);
+        Task<Response> LinkProvinceAndUserAsync(string userId, int provinceId);
     }
 }

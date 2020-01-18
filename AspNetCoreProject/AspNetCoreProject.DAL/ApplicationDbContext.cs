@@ -4,6 +4,8 @@ using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using AspNetCoreProject.DAL.Models;
+using AspNetCoreProject.DAL.Initialisation.Formater;
+using System.Reflection;
 
 namespace AspNetCoreProject.DAL
 {
@@ -27,7 +29,18 @@ namespace AspNetCoreProject.DAL
         {
             base.OnModelCreating(modelBuilder);
 
+            CreateProvinceModel(modelBuilder);
             CreateUsersOrganisationsRelation(modelBuilder);
+        }
+
+        private void CreateProvinceModel(ModelBuilder modelBuilder)
+        {
+            var model = modelBuilder.Entity<Province>();
+            var assembly = Assembly.GetExecutingAssembly();
+            var resourceName = "AspNetCoreProject.DAL.Initialisation.Source.Provinces.csv";
+            var stream = assembly.GetManifestResourceStream(resourceName);
+            var provinces = ProvinceFormatter.GetDataFrom(stream);
+            model.HasData(provinces);
         }
 
         private void CreateUsersOrganisationsRelation(ModelBuilder modelBuilder)

@@ -9,7 +9,7 @@ namespace AspNetCoreProject.PL.ViewModels
     public class ProvinceInfo
     {
         [ScaffoldColumn(false)]
-        public Guid ProvinceID { get; set; }
+        public int ProvinceID { get; set; }
 
         [DisplayName("Название провинции")]
         public string Name { get; set; }       
